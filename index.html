@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Image Search App </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.1/feather.min.js">
+</head>
+<body>
+    
+    <div class="profile">
+        <img src="feather/user.svg" onclick="tap()" alt="">
+    </div>
+    <form action="">
+        <input type="text" id="search-Input" placeholder="Search images...">
+        <button id="search-button">Search</button>
+    </form>
+    <h1>Image Search App</h1>
+
+    <div class="search-results">
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1682685796467-89a6f149f07a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="a-person-standing-on-a-rock-in-a-canyon">
+            <a href="https://unsplash.com/photos/a-person-standing-on-a-rock-in-a-canyon-wMHauMZiQjg" target="_blank">A person standing on a rock</a>
+        </div>
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1Mzk3NTF8MHwxfHNlYXJjaHwyfHxmYXJtfGVufDB8fHx8MTcwMjM0MzEwN3ww&ixlib=rb-4.0.3&q=80&w=400" alt="a-person-standing-on-a-rock-in-a-canyon">
+            <a href="https://unsplash.com/photos/a-person-standing-on-a-rock-in-a-canyon-wMHauMZiQjg" target="_blank">A person standing on a rock</a>
+        </div>
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1493364391862-bb90969a4cc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1Mzk3NTF8MHwxfHNlYXJjaHw0fHxhaXJ8ZW58MHx8fHwxNzAyMzQzMTM4fDA&ixlib=rb-4.0.3&q=80&w=400" alt="a-person-standing-on-a-rock-in-a-canyon">
+            <a href="https://unsplash.com/photos/a-person-standing-on-a-rock-in-a-canyon-wMHauMZiQjg" target="_blank">A person standing on a rock</a>
+        </div>
+    </div>
+
+    <button id="show-more-button">Show more</button>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
